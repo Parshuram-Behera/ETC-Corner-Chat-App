@@ -13,8 +13,7 @@ import com.google.android.material.tabs.TabLayout;
 
 public class DefaultActivity extends AppCompatActivity {
 
-    TabLayout tab ;
-    ViewPager mypage ;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,11 +21,9 @@ public class DefaultActivity extends AppCompatActivity {
 
         getSupportActionBar().setBackgroundDrawable( new ColorDrawable(getResources().getColor(R.color.appcolour)));
 
-        tab = findViewById(R.id.tab);
-        mypage = findViewById(R.id.mypage);
 
-        mypage.setAdapter( new FragmentAdapter(getSupportFragmentManager()));
-        tab.setupWithViewPager(mypage);
+
+
 
     }
 }

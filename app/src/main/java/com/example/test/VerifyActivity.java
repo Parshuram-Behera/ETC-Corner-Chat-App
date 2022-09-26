@@ -13,8 +13,6 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.test.modals.Usersdata;
-import com.example.test.modals.Usersdata;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseException;
@@ -96,10 +94,10 @@ public class VerifyActivity extends AppCompatActivity {
 
                                         if ( task.isSuccessful()){
 
-                                            Usersdata usersdata = new Usersdata(getIntent().getStringExtra("usernumber") );
-                                            String userid = task.getResult().getUser().getUid();
+//                                            Usersdata usersdata = new Usersdata(getIntent().getStringExtra("usernumber") );
+//                                            String userid = task.getResult().getUser().getUid();
 
-                                            database.getReference().child("Userdata").child(userid).setValue(usersdata);
+//                                            database.getReference().child("Userdata").child(userid).setValue(usersdata);
 
 
                                             Intent intent = new Intent( VerifyActivity.this , DefaultActivity.class);
