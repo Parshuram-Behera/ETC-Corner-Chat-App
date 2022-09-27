@@ -13,13 +13,23 @@
     android:layout_weight="1"
     android:layout_width="match_parent"
     android:layout_height="390dp">
-    <ImageView
-        android:layout_marginTop="39dp"
+    <de.hdodenhof.circleimageview.CircleImageView
+
         android:id="@+id/profile_image"
+        android:layout_gravity="center"
+        android:layout_marginStart="132dp"
+        android:src="@drawable/avtar12"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_weight="1"
-        app:srcCompat="@drawable/avtar12" />
+
+        />
+<!--    <ImageView-->
+<!--        android:layout_marginTop="39dp"-->
+<!--        android:id="@+id/profile_image"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_weight="1"-->
+<!--        app:srcCompat="@drawable/avtar12" />-->
 </LinearLayout>
 
 <LinearLayout
