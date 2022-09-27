@@ -7,7 +7,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 
 
-public class DefaultActivity extends AppCompatActivity {
+public class ProfileActivity extends AppCompatActivity {
 
 
     @Override
@@ -15,8 +15,8 @@ public class DefaultActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_setup);
 
-        getSupportActionBar().setBackgroundDrawable( new ColorDrawable(getResources().getColor(R.color.appcolour)));
-
+//        getSupportActionBar().setBackgroundDrawable( new ColorDrawable(getResources().getColor(R.color.appcolour)));
+        getSupportActionBar().hide();
 
 
 

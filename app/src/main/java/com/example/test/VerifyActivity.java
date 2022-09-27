@@ -100,7 +100,7 @@ public class VerifyActivity extends AppCompatActivity {
 //                                            database.getReference().child("Userdata").child(userid).setValue(usersdata);
 
 
-                                            Intent intent = new Intent( VerifyActivity.this , DefaultActivity.class);
+                                            Intent intent = new Intent( VerifyActivity.this , ProfileActivity.class);
                                             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                                             startActivity(intent);
 
