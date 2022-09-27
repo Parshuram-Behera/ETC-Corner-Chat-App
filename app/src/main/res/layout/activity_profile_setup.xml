@@ -12,28 +12,32 @@
 <LinearLayout
     android:layout_weight="1"
     android:layout_width="match_parent"
-    android:layout_height="390dp">
+    android:orientation="vertical"
+    android:layout_height="450dp">
     <de.hdodenhof.circleimageview.CircleImageView
 
         android:id="@+id/profile_image"
         android:layout_gravity="center"
-        android:layout_marginStart="132dp"
+        android:layout_marginTop="5dp"
         android:src="@drawable/avtar12"
         android:layout_width="150dp"
         android:layout_height="150dp"
 
         />
-<!--    <ImageView-->
-<!--        android:layout_marginTop="39dp"-->
-<!--        android:id="@+id/profile_image"-->
-<!--        android:layout_width="150dp"-->
-<!--        android:layout_height="150dp"-->
-<!--        android:layout_weight="1"-->
-<!--        app:srcCompat="@drawable/avtar12" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="29dp"
+        android:fontFamily="serif"
+        android:text="   Profile   "
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
 </LinearLayout>
 
 <LinearLayout
-    android:layout_marginTop="39dp"
     android:layout_weight="1"
     android:orientation="vertical"
     android:layout_width="match_parent"
