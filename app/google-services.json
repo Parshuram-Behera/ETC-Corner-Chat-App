@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "766443287947",
+    "firebase_url": "https://etc-corner-62600-default-rtdb.firebaseio.com",
     "project_id": "etc-corner-62600",
     "storage_bucket": "etc-corner-62600.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "766443287947-r6846j4d3o60mkojmk1j8kcjufj65uss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.test",
+            "certificate_hash": "8d082795c7a28af51a27e277cb0d51e75bf4d8b3"
+          }
+        },
         {
           "client_id": "766443287947-43r2tukhqiuoqumv3c4rl77jrcaej603.apps.googleusercontent.com",
           "client_type": 3
